@@ -23,7 +23,7 @@ The database contains typical retail domain entities — customers, orders, prod
 This project uses AWS DMS to migrate data from Azure MySQL (source) to AWS RDS MySQL (target).  
 Full load and CDC (Change Data Capture) are configured for real-time replication.
 
-![Migration Architecture](docs/screenshots/migration-arch.png)
+![Migration Architecture](screenshots/migration-arch.png)
 
 ---
 
