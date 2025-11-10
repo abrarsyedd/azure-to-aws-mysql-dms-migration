@@ -4,6 +4,13 @@ This project demonstrates end-to-end **database migration** from **Azure Databas
 
 ---
 
+## 🧱 Architecture Diagram
+
+This project uses AWS DMS to migrate data from Azure MySQL (source) to AWS RDS MySQL (target).  
+Full load and CDC (Change Data Capture) are configured for real-time replication.
+
+![Migration Architecture](screenshots/migration-arch.png)
+
 ## 🧭 Project Overview
 
 | Component | Description |
@@ -15,15 +22,6 @@ This project demonstrates end-to-end **database migration** from **Azure Databas
 | **Database Name** | retail_db |
 
 The database contains typical retail domain entities — customers, orders, products, payments, shipments, and inventory.
-
----
-
-## 🧱 Architecture Diagram
-
-This project uses AWS DMS to migrate data from Azure MySQL (source) to AWS RDS MySQL (target).  
-Full load and CDC (Change Data Capture) are configured for real-time replication.
-
-![Migration Architecture](screenshots/migration-arch.png)
 
 ---
 
